@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = KYCommonKit;
+			productName = KYCommonKit;
 		};
 /* End PBXAggregateTarget section */
 
@@ -46,27 +47,27 @@
 
 /* Begin PBXFileReference section */
 		06343B832263DC5FD135D716A9B9766B /* Pods-KYCommonKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYCommonKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		0824C29DA90BB3C503231040B2158166 /* Pods_KYCommonKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KYCommonKit_Example.framework; path = "Pods-KYCommonKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0824C29DA90BB3C503231040B2158166 /* Pods_KYCommonKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYCommonKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF44DEA86CEE959CF03578656B9EAC4 /* Pods-KYCommonKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYCommonKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		13DE4D83695A3CFB4FFDF609405E7D1C /* Pods-KYCommonKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYCommonKit_Example-Info.plist"; sourceTree = "<group>"; };
 		2397DE2357941B6F8366623F60DF6544 /* Pods-KYCommonKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYCommonKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2C20F3CD8B2BF74A3030895F1B1C7830 /* KYCommonKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KYCommonKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C20F3CD8B2BF74A3030895F1B1C7830 /* KYCommonKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KYCommonKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33599270AC4975306836307F8CD58462 /* Pods-KYCommonKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KYCommonKit_Tests.modulemap"; sourceTree = "<group>"; };
 		3BA355F7A51851260C9907F52AA0C03F /* Pods-KYCommonKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYCommonKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		449795820A66C98D0E3B85E05870CDBF /* Pods-KYCommonKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYCommonKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		44B9012EE343CF80123FA7084714DAE1 /* Pods-KYCommonKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYCommonKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		44CC482534CBC32B841871C33B251DE9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		44CC482534CBC32B841871C33B251DE9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		49AC72B03D4D1AD278B871F5228E5AA9 /* CommonMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CommonMacro.h; path = KYCommonKit/Classes/CommonMacro.h; sourceTree = "<group>"; };
 		4E4FB560C8144173F230245962459C62 /* Singleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = KYCommonKit/Classes/Singleton.h; sourceTree = "<group>"; };
 		4EDF62EC6FC2951ABDE71691264EFFE4 /* Pods-KYCommonKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYCommonKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		503DD37608357CF6DFDB1190764DC588 /* Pods-KYCommonKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYCommonKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5C675F8558A0D83D9BCFDDD1E9329E63 /* KYCommonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYCommonKit.xcconfig; sourceTree = "<group>"; };
 		875427A3CC8ED63EF400538ED448B1C8 /* Pods-KYCommonKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYCommonKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		942B1D927AA601051BC45FD9F72BF122 /* Pods_KYCommonKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KYCommonKit_Tests.framework; path = "Pods-KYCommonKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942B1D927AA601051BC45FD9F72BF122 /* Pods_KYCommonKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYCommonKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5EEB191421F41FF89D434B03061FAF /* Pods-KYCommonKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYCommonKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B4A22AD5685337C06BA4863B23259951 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4A22AD5685337C06BA4863B23259951 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B58C8BC3E05ACBEB7DB4469B04783EDC /* EnumMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EnumMacro.h; path = KYCommonKit/Classes/EnumMacro.h; sourceTree = "<group>"; };
 		B9FBC361B00196AF1BEBB4FC2782AACB /* Pods-KYCommonKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYCommonKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		BBB7E3EA1BC6F46A0AF46872D147F4B2 /* Pods-KYCommonKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYCommonKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -471,8 +472,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
