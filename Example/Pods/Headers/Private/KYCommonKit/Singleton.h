@@ -1,0 +1,1 @@
+../../../../../KYCommonKit/Classes/Singleton.h

@@ -1,0 +1,6 @@
+framework module KYCommonKit {
+  umbrella header "KYCommonKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
