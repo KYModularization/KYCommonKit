@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'KYCommonKit_Example' do
+  pod 'KYCommonKit', :path => '../'
+
+  target 'KYCommonKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
