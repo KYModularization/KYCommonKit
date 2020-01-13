@@ -177,4 +177,86 @@
 #define IsAgreeNewEMRVersion @"IsAgreeNewEMRVersion" //诊断使用新版还是旧版的
 
 
+//加载图片
+#define IMAGE(name) [UIImage imageNamed:name]
+//DocumentPath
+#define DOCUMENT_PATH [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+//屏幕宽度
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+//屏幕高度
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+//key_window
+#define KEY_WINDOW [UIApplication sharedApplication].keyWindow
+//HEXColor
+#define UIColorWithHex(s) [UIColor colorWithRed:((s & 0xFF0000) >> 16)/255.f green:((s & 0xFF00) >> 8)/255.f blue:(s & 0xFF)/255.f alpha:1.f]
+//RGBA
+#define UIColorWithRGBA(r,g,b) [UIColor colorWithRed:r/255.f green:g/255.f blue:b/255.f alpha:1.f]
+//主色
+#define MAIN_COLOR UIColorWithHex(0x1DBDD4)
+//主色不可点
+#define DISABLED_COLOR UIColorWithHex(0x8EDEE9)
+//主色高亮
+#define HIGHLIGHTED_COLOR UIColorWithHex(0x1BAFC4)
+//白色
+#define WHITE_COLOR [UIColor whiteColor]
+//透明色
+#define CLEAR_COLOR [UIColor clearColor]
+//黑色
+#define BLACK_COLOR [UIColor blackColor]
+//文本浅黑
+#define LIGHT_BLACK_COLOR UIColorWithHex(0x4D535F)
+//文本黑
+#define TEXT_BLACK_COLOR UIColorWithHex(0x383F47)
+//文本灰1
+#define TEXT_GRAY_COLOR_1 UIColorWithHex(0xB4BDCA)
+//文本灰2
+#define TEXT_GRAY_COLOR_2 UIColorWithHex(0x949CAC)
+//灰色背景色
+#define GRAY_BACKGROUND_COLOR UIColorWithHex(0xF2F5F9)
+//分割线
+#define LINE_COLOR UIColorWithHex(0xDFE1EA)
+//font
+#define FONT(x) [UIFont systemFontOfSize:x]
+//bold_font
+#define BOLD_FONT(x) [UIFont boldSystemFontOfSize:x]
+//数字font
+#define NUM_FONT(x) [UIFont fontWithName:@"AvenirLTStd-Medium" size:x]
+//数字bold
+#define NUM_BOLD_FONT(x) [UIFont fontWithName:@"AvenirLTStd-Heavy" size:x]
+//创建可变字典
+#define NMD(parameter) NSMutableDictionary *parameter = [NSMutableDictionary dictionary]
+//创建可变数组
+#define NMA(parameter) NSMutableArray *parameter = [NSMutableArray array]
+//push
+#define PUSH(v) [self.navigationController pushViewController:v animated:YES]
+//pop
+#define POP [self.navigationController popViewControllerAnimated:YES]
+//present
+#define PRESENT(v) [self presentViewController:v animated:YES completion:nil];
+//dismiss
+#define DISMISS [self dismissViewControllerAnimated:YES completion:nil]
+//是否登录
+#define IS_LOGIN [[NSUserDefaults standardUserDefaults] boolForKey:@"isLogin"]
+//发送登录请求
+#define POST_LOG_NOTIFICATION [[NSNotificationCenter defaultCenter] postNotificationName:Y_Notification_Account_Offline object:nil]
+
+#define Y_Notification_Reload_Group @"Y_Notification_Reload_Group"          //重新从服务器拉去分组信息
+#define Y_Notification_Visit_Patient_Apply @"Y_Notification_Visit_Patient_Apply"          //获取申请患者
+#define Y_Notification_Sync_Group @"Y_Notification_Sync_Group"              //本地同步分组信息
+//全屏约束
+#define FULL_SCREEN_CONSTRAINTS(v) [v mas_makeConstraints:^(MASConstraintMaker *make) {\
+make.top.equalTo(self.navBar.mas_bottom);\
+if (@available(iOS 11.0, *))\
+{\
+make.left.equalTo(self.view.mas_safeAreaLayoutGuideLeft);\
+make.bottom.equalTo(self.view.mas_safeAreaLayoutGuideBottom);\
+make.right.equalTo(self.view.mas_safeAreaLayoutGuideRight);\
+}\
+else\
+{\
+make.left.bottom.right.equalTo(self.view);\
+}\
+}];
+
+
 #endif /* CommonMacro_h */
