@@ -50,6 +50,7 @@
 		0824C29DA90BB3C503231040B2158166 /* Pods_KYCommonKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYCommonKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF44DEA86CEE959CF03578656B9EAC4 /* Pods-KYCommonKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYCommonKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		13DE4D83695A3CFB4FFDF609405E7D1C /* Pods-KYCommonKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYCommonKit_Example-Info.plist"; sourceTree = "<group>"; };
+		1DAAD0AF23CDAF2200479F1D /* Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Protocol.h; path = KYCommonKit/Classes/Protocol.h; sourceTree = "<group>"; };
 		2397DE2357941B6F8366623F60DF6544 /* Pods-KYCommonKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYCommonKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2C20F3CD8B2BF74A3030895F1B1C7830 /* KYCommonKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KYCommonKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -108,6 +109,7 @@
 		1118F24EC2A35358A56A2F9839ADA0EA /* KYCommonKit */ = {
 			isa = PBXGroup;
 			children = (
+				1DAAD0AF23CDAF2200479F1D /* Protocol.h */,
 				49AC72B03D4D1AD278B871F5228E5AA9 /* CommonMacro.h */,
 				B58C8BC3E05ACBEB7DB4469B04783EDC /* EnumMacro.h */,
 				4E4FB560C8144173F230245962459C62 /* Singleton.h */,
